@@ -109,8 +109,8 @@ hr.light-100 {
 }
 
 .masthead {
-  height: 75vh;
-  min-height: 200px;
+  height: 200px;
+  min-height: 150px;
   background-image: url('img/borderpurple.png');
   background-size: cover;
   background-position: center;
