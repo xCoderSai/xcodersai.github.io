@@ -75,7 +75,12 @@ figure {
   max-width: 32px;
   max-height: 32px;
 }
-
+.center-swag {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 
 /* footah */mas
