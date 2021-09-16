@@ -7,4 +7,4 @@ I think it's self explanatory..........
 Bootstrap, CSS, HTML, JS
 
 # What's left?
-Not much! I recently did a revamp. It works, but not on Chrome!
+Not much! I recently did a revamp. 
