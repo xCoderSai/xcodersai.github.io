@@ -1,7 +1,6 @@
 # Catie Sai 👌 Official Website 👌
 
-I think it's self explanatory..........
-
+I think it's self explanatory.
 
 # Yeah, ok. What's it coded WITH? 🖥️
 Bootstrap, CSS, HTML, JS
