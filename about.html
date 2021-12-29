@@ -2,136 +2,589 @@
 <html lang="en">
 <head>
 
-	<meta charset="utf-8">
-	<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
-	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Catherine De Mesa - Official Website</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-	<link href="style.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+  <!-- SITE TITTLE -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>.::Kawaii Friends Security::.</title>
+  
+  <!-- PLUGINS CSS STYLE -->
+  <!-- Bootstrap -->
+  <link href="plugins/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <!-- themify icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- Slick Carousel -->
+  <link href="plugins/slick/slick.css" rel="stylesheet">
+  <!-- Slick Carousel Theme -->
+  <link href="plugins/slick/slick-theme.css" rel="stylesheet">
+  
+  <!-- CUSTOM CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link href="images/favicon-32x32.png" rel="icon">
+  <link href="images/favicon-32x32.png" rel="apple-touch-icon">
 
 </head>
-<body>
 
-<!-- Navigation -->
-<nav class = "navbar-expand-md navbar-light bg-light sticky-top">
-<div class = "container-fluid">	
-	<a class = "navbar-brand" href="index.html"><img src = "img/logo2.png"></a>	
-	<button class = "navbar-toggler" type="button" data-toggle = "collapse" data-target = "#navbarResponsive">
-		<span class = "navbar-toggler-icon"></span>
-	</button>
-	<div class = "collapse navbar-collapse" id = "navbarResponsive">
-		<ul class = "navbar-nav ml-auto">
-			<li class = "nav-item">
-				<a class = "nav-link" href="index.html">Home</a>
-			</li>
-			<li class = "nav-item active">
-				<a class = "nav-link" href="about.html">About</a>
-			</li>
-		</ul>
-	</div>
-</div>	
+<body class="body-wrapper">
+
+
+<nav class="navbar main-nav fixed-top navbar-expand-lg large">
+  <div class="container">
+      <a class="navbar-brand" href="homepage.html"><img src="images/logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="ti-menu text-white"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#team">Team</a>
+        </li>
+      </ul>
+      </div>
+  </div>
 </nav>
-<header class="masthead">
-	<div class="container h-100">
-	  <div class="row h-100 align-items-center">
-		<div class="col-12 text-center">
-			<h1 class="font-weight-light"><h3><b>About Kawaii Friends Collective</b></h3></h1>
+<!--=====================================
+=            Homepage Banner            =
+======================================-->
 
-		</div>
-	  </div>
-	</div>
-  </header>
-	
-</div>
-<br><br><br><br><br>
-
-<div class = "text-center">
-	<h3><b>VALUES</b></h3>
-	<p>Acceptance, Grace, and Patience with oneself</p> </br>
-	<h3><b>ABOUT US!</b></h3>
-<p class = "text-center">We were founded in 2021 by CatieSai after she got jealous that SHE wasn’t in </br>a Hacktivism Group so she made her own! Most likely the first women-only, nonbinary-only Hacker Group, we don’t do any hardcore</br> pen testing. Instead, out goals include promoting mental wellness, disability in tech and women/nonbinary in tech.
-</p>
-<br>
-
-	
-	
-	
-<br>
-<h2>Follow Us!</h2>
-<a href="https://twitter.com/catiesai">@Catie</a>
-<br> 
-<a href="https://twitter.com/cybersecdancer">@Dany</a>
-<br> 
-<a href="https://twitter.com/de3ev">@Denise</a>
-<br> 
-<a href="https://twitter.com/Coleens_">@Coleen</a>
-<br> 
-<a href="https://twitter.com/synackodes">@Elle</a>
-<br> 
-<a href="https://twitter.com/seaslugs8/">@Merianna</a>
-<br> 
-<a href="https://twitter.com/medus4_cdc/">@Katelyn</a>
-<br> 
-</div>
-
-<footer>
-	<div class=”container footer_full_width”>
-	<div class=”row no-padding”>
-	<div class=”col-lg-12”>
-	<footer class="bg-light text-center text-lg-start">
-		<!-- Grid container -->
-		<div class="container p-4">
-		  <!--Grid row-->
-		  <div class="row">
-			<!--Grid column-->
-			<div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-			  <h5 class="text-uppercase">Contact me!</h5>
-	  
-			  <p>
-				Swiggity Swoogity
-			  </p>
+<section class="banner bg-1" id="home">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 align-self-center">
+				<!-- Contents -->
+				<div class="content-block">
+					<h1>Kawaii Friends Security</h1>
+					<h5>Diversity • Mental Wellness • Balance</h5>
+					<!-- App Badge -->
+					<div class="app-badge">
+						<ul class="list-inline">
+							<li class="list-inline-item">
+								<a href="#about" class="btn btn-download">
+									<div>MORE<span>ABOUT US</span></div>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#team" class="btn btn-download">
+									<div>OUR<span>TEAM MEMBERS</span></div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
-			<!--Grid column-->
-	  
-			<!--Grid column-->
-			<div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-lg-right text-md-right text-sm-right justify-content-md-end justify-content-end">
-			  <h5 class="text-uppercase">Where am I?</h5>
-	  
-			  <ul class="list-unstyled mb-0">
-				<li>
-				  <a href="https://twitter.com/kawaii_security" class="text-dark">Twitter</a>
-				</li>
-				<li>
-				  <a href="https://github.com/xCoderSai" class="text-dark">Github</a>
-				</li>
-			  </ul>
+			<div class="col-md-4">
+				<!-- App Image -->
+				<div class="image-block">
+					<img class="img-fluid phone-thumb" src="images/phones/iphone-banner.png" alt="iphone-banner">
+				</div>
 			</div>
-			<!--Grid column-->
-	  
-			<!--Grid column-->
-		  </div>
-		  <!--Grid row-->
 		</div>
-		<!-- Grid container -->
-	  
-		<!-- Copyright -->
-		<div class="text-center p-3" style="background-color: rgba(20, 0, 53, 0.2);">
-		  © 2021 Copyright: Catherine De Mesa
+	</div>
+</section>
+
+<!--====  End of Homepage Banner  ====-->
+
+<!--===========================
+=            About            =
+============================-->
+
+<section class="about section bg-2" id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 align-self-center text-center">
+				<!-- Image Content -->
+				<div class="image-block">
+					<img class="phone-thumb-md" src="images/phones/iphone-feature.png" alt="iphone-feature" class="img-fluid">
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-10 m-md-auto align-self-center ml-auto">
+				<div class="about-block">
+					<!-- About 01 -->
+					<div class="about-item">
+						<div class="content">
+							<h5>Mental Wellness</h5>
+							<p>We believe that in order to live authentically, it's important to keep yourself "in-check". Whether that is taking your medication, having supportive friends, eating right for you, etc. having mental wellness is a key tenet to having a good life.</p>
+						</div>
+					</div>
+					<!-- About 02 -->
+					<div class="about-item active">
+						<div class="content">
+							<h5>Diversity</h5>
+							<p>We, as a group, aim to promote disability in tech and women in tech as two important groups who deserve to have a voice.</p>
+						</div>
+					</div>
+					<!-- About 03 -->
+					<div class="about-item">
+						<div class="content">
+							<h5>Work-Life Balance</h5>
+							<p>Thirdly, and Lastly, <b></b><i>You are NOT your Job.</i></b> you deserve to have space and time for family, friends, and hobbies.</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-
 	</div>
-	</div>
-	</div>	
+</section>
 
-	  <!-- Footer -->
+<!--====  End of About  ====-->
+
+<!--===================================
+=            Pricing Table            =
+====================================-->
+
+<section class="pricing section bg-shape" id="pricing">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title mb-4">
+					<h2 class="mb-3">Help Support Us!</h2>
+					<p>Pay Us directly, Follow Us, etc...</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-md-6">
+				<!-- Pricing Table -->
+<div class="pricing-table text-center">	
+	<!-- Title -->
+	<div class="title">	
+		<h5>Direct Monetary Payment</h5>
+	</div>
+	<!-- Price Tag -->
+	<div class="price">	
+		<p>$$$</p>
+	</div>
+	<!-- Features -->
+	<ul class="feature-list">
+		<li>PayPal Uplink</li>
+		<li>CashApp/Venmo: CatieSai</li>
+		<li>We also accept Gift Cards and Codes for Giveaways!</li>
+		<li>Life time support for women in tech</li>
+	</ul>
+	<!-- Take Action -->
+	<div class="action-button">
+		<a href="https://www.paypal.me/catiesai" class="btn btn-main-rounded">Start Now</a>
+	</div>
+</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<!-- Pricing Table -->
+<div class="pricing-table featured text-center">	
+	<!-- Title -->
+	<div class="title">	
+		<h5>Jewelry</h5>
+	</div>
+	<!-- Price Tag -->
+	<div class="price">	
+		<p>DesignedByDany</p>
+	</div>
+	<!-- Features -->
+	<ul class="feature-list">
+		<li>Cute necklaces,</li>
+		<li>Bracelets,</li>
+		<li>...and more!</li>
+		<li>Custom made Hacker Jewelry</li>
+	</ul>
+	<!-- Take Action -->
+	<div class="action-button">
+		<a href="https://www.etsy.com/shop/DesignedByDany" class="btn btn-main-rounded">Wear Now!</a>
+	</div>
+</div>
+			</div>
+			<div class="col-lg-4 col-md-6 m-md-auto">
+				<!-- Pricing Table -->
+<div class="pricing-table text-center">	
+	<!-- Title -->
+	<div class="title">	
+		<h5>Clothing</h5>
+	</div>
+	<!-- Price Tag -->
+	<div class="price">	
+		<p>Katelyn's Clothing</p>
+	</div>
+	<!-- Features -->
+	<ul class="feature-list">
+		<li>Wearable shitposts,</li>
+		<li>accessories,</li>
+		<li>and more!</li>
+		<li>by @DilDog and @Medus4</li>
+	</ul>
+	<!-- Take Action -->
+	<div class="action-button">
+		<a href="https://www.hack.xxx/" class="btn btn-main-rounded">Shop Now</a>
+	</div>
+</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Pricing Table  ====-->
+
+<!--=============================================
+=            Call to Action 
+        =
+==============================================-->
+
+<section class="cta-download bg-3 overlay">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5 text-center">
+				<div class="image-block"><img class="phone-thumb img-fluid" src="images/phones/iphone-chat.png" alt=""></div>
+			</div>
+			<div class="col-lg-7">
+				<div class="content-block">
+					<!-- Title -->
+					<h2>FOLLOW US!</h2>
+					<!-- Desctcription -->
+					<p>Coming from the depths of the internet, this group is a movement based off of stuff we're already doing. :)</p>
+					<!-- App Badge -->
+					<div class="app-badge">
+						<ul class="list-inline">
+							<li class="list-inline-item">
+								<a href="http://www.twitter.com/kawaii_security" class="btn btn-download">
+									<div>official<span>TWITTER PAGE</span></div>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="http://www.twitter.com/CatieSai" class="btn btn-download">
+									<div>leader's<span>PAGE</span></div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Call to Action Download  ====-->
+
+<!--=============================
+=            Counter            =
+==============================-->
+
+<section class="section counter bg-gray">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+				<div class="counter-item">
+					<!-- Counter Number -->
+					<h3><span class="count" data-count="10">0</span>k+</h3>
+					<!-- Counter Name -->
+					<p>People Impacted</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+				<div class="counter-item">
+					<!-- Counter Number -->
+					<h3><span class="count" data-count="150">0</span>+</h3>
+					<!-- Counter Name -->
+					<p>Followers</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+				<div class="counter-item">
+					<!-- Counter Number -->
+					<h3><span class="count" data-count="69">0</span>k</h3>
+					<!-- Counter Name -->
+					<p>Swagified</p>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+				<div class="counter-item">
+					<!-- Counter Number -->
+					<h3><span class="count" data-count="10000">0</span><sup></sup></h3>
+					<!-- Counter Name -->
+					<p>Swag</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Counter  ====-->
+
+<!--==========================
+=            Team            =
+===========================-->
+
+<section class="section team bg-shape-two" id="team">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title mb-4">
+					<h2 class="mb-3">Our Team</h2>
+					<p>Demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee idea of
+						denouncing pleasure and praising</p>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3 col-md-6">
+				<!-- Team Member -->
+<div class="team-member text-center mb-4 mb-lg-0">
+	<div class="image">
+		<img class="img-fluid" src="images/team/kt.png" alt="team-member">
+	</div>
+	<div class="name">
+		<h5>Catherine De Mesa</h5>
+	</div>
+	<div class="position">
+		<p>Web Dev, Robot Lady + Penguin Cultee</p>
+	</div>
+	<div class="skill-bar">
+		<div class="progress">
+		  	<div class="progress-bar" style="width:69%;"></div>
+		</div>
+		<span>69% normal</span>
+	</div>
+	<ul class="social-icons list-inline">
+		<li class="list-inline-item">
+			<a href="https://twitter.com/catiesai"><i class="ti-twitter-alt"></i></a>
+		</li>
+		<li class="list-inline-item">
+			<a href="https://www.linkedin.com/in/catiedee/"><i class="ti-linkedin"></i></a>
+		</li>
+		<li class="list-inline-item">
+			<a href="https://www.instagram.com/catiesai/"><i class="ti-instagram"></i></a>
+		</li>
+	</ul>
+</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<!-- Team Member -->
+<div class="team-member text-center mb-4 mb-lg-0">
+	<div class="image">
+		<img class="img-fluid" src="images/team/meri.png" alt="team-member">
+	</div>
+	<div class="name">
+		<h5>Merianna Desilets</h5>
+	</div>
+	<div class="position">
+		<p>Animal Lady + Red Hatter Princess</p>
+	</div>
+	<div class="skill-bar">
+		<div class="progress">
+		  	<div class="progress-bar" style="width:95%;"></div>
+		</div>
+		<span>95% Redhead</span>
+	</div>
+	<ul class="social-icons list-inline">
+		<li class="list-inline-item">
+			<a href="https://twitter.com/seaslugs8"><i class="ti-twitter-alt"></i></a>
+		</li>
+	</ul>
+</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<!-- Team Member -->
+<div class="team-member text-center mb-4 mb-lg-0">
+	<div class="image">
+		<img class="img-fluid" src="images/team/katelyn.png" alt="team-member">
+	</div>
+	<div class="name">
+		<h5>Katelyn Bowden</h5>
+	</div>
+	<div class="position">
+		<p>cDc Cultee, maker of things, and Professional Hacktivist</p>
+	</div>
+	<div class="skill-bar">
+		<div class="progress">
+		  	<div class="progress-bar" style="width:34%;"></div>
+		</div>
+		<span>34% chance of being with your mom</span>
+	</div>
+	<ul class="social-icons list-inline">
+		<li class="list-inline-item">
+			<a href="https://twitter.com/medus4_cdc"><i class="ti-twitter-alt"></i></a>
+		</li>
+	</ul>
+</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<!-- Team Member -->
+<div class="team-member text-center mb-4 mb-lg-0">
+	<div class="image">
+		<img class="img-fluid" src="images/team/coleen.png" alt="team-member">
+	</div>
+	<div class="name">
+		<h5>Coleen</h5>
+	</div>
+	<div class="position">
+		<p>#InfoSecBikini Leader and professional infosec protestor</p>
+	</div>
+	<div class="skill-bar">
+		<div class="progress">
+		  	<div class="progress-bar" style="width:69%;"></div>
+		</div>
+		<span>69% - just 69.</span>
+	</div>
+	<ul class="social-icons list-inline">
+		<li class="list-inline-item">
+			<a href="https://twitter.com/Coleens_"><i class="ti-twitter-alt"></i></a>
+		</li>
+	</ul>
+</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section team bg-shape-two" id="team">
+	<div class="container">
+
+		<div class="row">
+			<div class="col-lg-3 col-md-6">
+				<!-- Team Member -->
+<div class="team-member text-center mb-4 mb-lg-0">
+	<div class="image">
+		<img class="img-fluid" src="images/team/elle.png" alt="team-member">
+	</div>
+	<div class="name">
+		<h5>Elle Romanoff</h5>
+	</div>
+	<div class="position">
+		<p>Llama-loving lady with a passion for security!</p>
+	</div>
+	<div class="skill-bar">
+		<div class="progress">
+		  	<div class="progress-bar" style="width:99%;"></div>
+		</div>
+		<span>99% radical!</span>
+	</div>
+	<ul class="social-icons list-inline">
+		<li class="list-inline-item">
+			<a href="https://twitter.com/synackodes"><i class="ti-twitter-alt"></i></a>
+		</li>
+	</ul>
+</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<!-- Team Member -->
+<div class="team-member text-center mb-4 mb-lg-0">
+	<div class="image">
+		<img class="img-fluid" src="images/team/denice.png" alt="team-member">
+	</div>
+	<div class="name">
+		<h5>Denice</h5>
+	</div>
+	<div class="position">
+		<p>Incident Response Diva - loves Carli Lloyd and soccer!</p>
+	</div>
+	<div class="skill-bar">
+		<div class="progress">
+		  	<div class="progress-bar" style="width:95%;"></div>
+		</div>
+		<span>95% chance I'll marry Carli Lloyd</span>
+	</div>
+	<ul class="social-icons list-inline">
+
+		<li class="list-inline-item">
+			<a href="https://twitter.com/de3ev"><i class="ti-twitter-alt"></i></a>
+		</li>
+	</ul>
+</div>
+			</div>
+			<div class="col-lg-3 col-md-6">
+				<!-- Team Member -->
+<div class="team-member text-center mb-4 mb-lg-0">
+	<div class="image">
+		<img class="img-fluid" src="images/team/dany.png" alt="team-member">
+	</div>
+	<div class="name">
+		<h5>Dany Maria</h5>
+	</div>
+	<div class="position">
+		<p>Tapdancing Threat Hunter and 100% cool!
+		</p>
+	</div>
+	<div class="skill-bar">
+		<div class="progress">
+		  	<div class="progress-bar" style="width:100%;"></div>
+		</div>
+		<span>100%</span>
+	</div>
+	<ul class="social-icons list-inline">
+		<li class="list-inline-item">
+			<a href="https://twitter.com/cybersecdancer"><i class="ti-twitter"></i></a>
+		</li>
+		<li class="list-inline-item">
+			<a href=""><i class="ti-instagram"></i></a>
+		</li>
+	</ul>
+</div>
+			</div>
+
+</section>
+
+<!--====  End of Team  ====-->
+
+
+<!--============================
+=            Footer            =
+=============================-->
+
+<footer class="footer-main">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 mr-auto">
+        <div class="footer-logo">
+          <img src="images/logo.png" alt="footer-logo">
+        </div>
+        <div class="copyright">
+          <p>@2021 - All Rights Reserved | Design and Developed By : <a href="https://catiesai.com/"
+              target="_blank">Catherine De Mesa</a>
+                      </p>
+        </div>
+      </div>
+      <div class="col-lg-6 text-lg-right">
+        <!-- Social Icons -->
+        <ul class="social-icons list-inline">
+          <li class="list-inline-item">
+            <a target="_blank" href="https://twitter.com/catiesai"><i class="text-primary ti-twitter-alt"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://github.com/xCoderSai"><i class="text-primary ti-linkedin"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://instagram.com/catiesai"><i class="text-primary ti-instagram"></i></a>
+          </li>
+        </ul>
+        <!-- Footer Links -->
+        <ul class="footer-links list-inline">
+          <li class="list-inline-item">
+            <a class="scrollTo" href="#about">ABOUT</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="scrollTo" href="#team">TEAM</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="scrollTo" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </footer>
 
 
+  <!-- JAVASCRIPTS -->
+  
+    <script src="plugins/jquery/jquery.js"></script>
+  <script src="plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="js/custom.js"></script>
+  
 </body>
+
 </html>
